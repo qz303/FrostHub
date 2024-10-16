@@ -67,7 +67,7 @@
     background-color: rgb(5, 43, 148);
     color: white;
     cursor: pointer;
-    font-size: 45px;
+    font-size: 40px;
     padding: 50px 30px;
     z-index: 3;
 }
@@ -81,8 +81,8 @@
     background-color: rgb(43, 85, 202);
     color: white;
     cursor: pointer;
-    font-size: 50px;
-    padding: 52px 32px;
+    font-size: 45px;
+    padding: 51px 31px;
     z-index: 3;
     box-shadow: 0 10px 35px rgba(0, 0, 0, 0.6);
 }
