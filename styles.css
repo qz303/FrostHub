@@ -1,0 +1,146 @@
+.Background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(5, 5, 34) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -1;
+}
+
+.FrostTitle {
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    transform: translate(1.5%, -25%);
+}
+
+.container{
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    background-color: rgba(63, 62, 62, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.top-bar{
+    position: fixed;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 10%;
+    background-color: rgba(63, 62, 62, 0.4); 
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    z-index: 1; 
+    contain: content;
+}
+
+#particles-js {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    opacity: 40%;
+    
+}
+
+.button {
+    transition: 0.3s ease-in-out;
+    margin: 20px;
+    border: none;
+    border-radius: 20px;
+    font-family: "Rubik", sans-serif;
+    background-color: rgb(5, 43, 148);
+    color: white;
+    cursor: pointer;
+    font-size: 60px;
+    padding: 100px 80px;
+    z-index: 3;
+}
+
+.button:hover {
+    transition: 0.7s ease-in-out;
+    margin: 20px;
+    border: none;
+    border-radius: 15px;
+    font-family: "Rubik", sans-serif;
+    background-image: linear-gradient(rgba); 
+    color: white;
+    cursor: pointer;
+    font-size: 65px;
+    padding: 105px 85px;
+    z-index: 3;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+.creds {
+    transition: 0.3s ease-in-out;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 12px;
+    
+}
+
+.creds:hover {
+    color: red;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: italic;
+    transition: 0.3s ease-in-out;
+    font-size: 14px;
+}
+
+.disclaimer {
+    transition: 0.3s ease-in-out;
+    border: none;
+    border-radius: 20px;
+    font-family: "Rubik", sans-serif;
+    background-color: rgb(73, 75, 82);
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px 10px;
+    z-index: 3;
+}
+
+.disclaimer:hover {
+    transition: 0.3s ease-in-out;
+    border: none;
+    border-radius: 20px;
+    font-family: "Rubik", sans-serif;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 10px;
+    z-index: 3;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+.text {
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    align-self: center;
+    text-align: center;
+}
