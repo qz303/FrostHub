@@ -58,7 +58,7 @@
 }
 
 .button {
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease;
     margin: 20px;
     border: none;
     border-radius: 20px;
@@ -67,12 +67,12 @@
     color: white;
     cursor: pointer;
     font-size: 60px;
-    padding: 100px 80px;
+    padding: 70px 60px;
     z-index: 3;
 }
 
 .button:hover {
-    transition: 0.7s ease-in-out;
+    transition: 0.7s ease;
     margin: 20px;
     border: none;
     border-radius: 15px;
@@ -81,13 +81,13 @@
     color: white;
     cursor: pointer;
     font-size: 65px;
-    padding: 105px 85px;
+    padding: 75px 65px;
     z-index: 3;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
 }
 
 .creds {
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease;
     color: white;
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
@@ -103,12 +103,12 @@
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: italic;
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease;
     font-size: 14px;
 }
 
 .disclaimer {
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease;
     border: none;
     border-radius: 20px;
     font-family: "Rubik", sans-serif;
@@ -121,7 +121,7 @@
 }
 
 .disclaimer:hover {
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease;
     border: none;
     border-radius: 20px;
     font-family: "Rubik", sans-serif;
