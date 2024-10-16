@@ -46,6 +46,7 @@
     border-radius: 20px;
     z-index: 1; 
     contain: content;
+    
 }
 
 #particles-js {
@@ -153,7 +154,8 @@
     background-color: rgb(5, 43, 148);
     color: white;
     cursor: pointer;
-    font-size: 45px;
-    padding: 50px 30px;
+    font-size: 20px;
+    padding: 6px 5px;
     z-index: 3;
+    
 }
