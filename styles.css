@@ -78,13 +78,13 @@
     border: none;
     border-radius: 15px;
     font-family: "Rubik", sans-serif;
-    background-image: linear-gradient(rgba); 
+    background-color: rgb(43, 85, 202);
     color: white;
     cursor: pointer;
     font-size: 50px;
-    padding: 55px 35px;
+    padding: 52px 32px;
     z-index: 3;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.6);
 }
 
 .creds {
